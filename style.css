@@ -444,7 +444,7 @@ input[type="checkbox"]:checked {
   justify-content: center;
 }
 .fileUpload span {
-  max-width: 60px;
+  max-width: 350px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -674,6 +674,9 @@ textarea {
   }
   .checkbox-label {
     font-size: 12px;
+  }
+  .fileUpload span {
+    max-width: 60px;
   }
 }
 
