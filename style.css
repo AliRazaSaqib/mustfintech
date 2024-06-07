@@ -660,17 +660,21 @@ textarea {
 
 @media (max-width: 576px) {
   .modalBody h3 {
-    max-width: 120px;
+    max-width: 104px;
+    min-width: 104px;
   }
   .inquery-req {
-    right: 28px !important;
+    right: 16px !important;
   }
   .required {
-    right: 62px;
+    right: 50px;
   }
   .modal-content,
   .successModal .modal-content {
     width: 96%;
+  }
+  .checkbox-label {
+    font-size: 12px;
   }
 }
 
@@ -680,7 +684,7 @@ textarea {
     font-size: 12px;
   }
   .modalBody .dropdown-toggle {
-    min-width: 200px;
+    min-width: 170px;
   }
   .dropdown-menu {
     min-width: 132px;
@@ -688,5 +692,15 @@ textarea {
   .modal-content,
   .successModal .modal-content {
     width: 96%;
+  }
+  .checkbox-label {
+    font-size: 12px;
+  }
+  .reason-textarea {
+    width: 76%;
+  }
+  .checkbox-custom {
+    width: 14px;
+    height: 14px;
   }
 }
