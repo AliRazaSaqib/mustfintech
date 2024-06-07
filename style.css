@@ -10,7 +10,7 @@
   max-width: 1440px;
   width: 100%;
   margin: auto;
-  padding: 12px 24px;
+  padding: 12px 0;
 }
 .button-container {
   border-top: 1px solid #d7d8da;
@@ -668,7 +668,8 @@ textarea {
   .required {
     right: 62px;
   }
-  .modal-content {
+  .modal-content,
+  .successModal .modal-content {
     width: 96%;
   }
 }
@@ -684,7 +685,8 @@ textarea {
   .dropdown-menu {
     min-width: 132px;
   }
-  .modal-content {
+  .modal-content,
+  .successModal .modal-content {
     width: 96%;
   }
 }
